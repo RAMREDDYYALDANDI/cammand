@@ -1,17 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-28T00:32:16 IST" name="Suite" finished-at="2022-01-28T00:32:45 IST" duration-ms="29801">
+  <suite started-at="2022-01-27T23:56:33 IST" name="Suite" finished-at="2022-01-28T00:01:28 IST" duration-ms="295087">
     <groups>
     </groups>
-    <test started-at="2022-01-28T00:32:16 IST" name="Test" finished-at="2022-01-28T00:32:45 IST" duration-ms="29801">
-      <class name="right.side.Homepage">
-        <test-method signature="basepagenavigation()[pri:0, instance:right.side.Homepage@7b8b43c7]" started-at="2022-01-28T00:32:16 IST" name="basepagenavigation" finished-at="2022-01-28T00:32:45 IST" duration-ms="29711" status="PASS">
+    <test started-at="2022-01-27T23:56:33 IST" name="homepagevalidation" finished-at="2022-01-28T00:01:28 IST" duration-ms="295087">
+      <class name="First.a.homepage">
+        <test-method signature="stay()[pri:0, instance:First.a.homepage@73d983ea]" started-at="2022-01-27T23:56:33 IST" name="stay" finished-at="2022-01-27T23:58:19 IST" duration-ms="106135" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-      </class> <!-- right.side.Homepage -->
-    </test> <!-- Test -->
+        </test-method> <!-- stay -->
+        <test-method is-config="true" signature="throwa()[pri:0, instance:First.a.homepage@73d983ea]" started-at="2022-01-28T00:01:22 IST" name="throwa" finished-at="2022-01-28T00:01:23 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- throwa -->
+      </class> <!-- First.a.homepage -->
+      <class name="First.a.newone">
+        <test-method signature="oncepractice()[pri:0, instance:First.a.newone@6bc407fd]" started-at="2022-01-27T23:58:19 IST" name="oncepractice" finished-at="2022-01-28T00:01:22 IST" duration-ms="182885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oncepractice -->
+        <test-method is-config="true" signature="throwa()[pri:0, instance:First.a.newone@6bc407fd]" started-at="2022-01-28T00:01:23 IST" name="throwa" finished-at="2022-01-28T00:01:28 IST" duration-ms="4227" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-KTNK891', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e43eca5e9311cce334e705faefac5c02, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ramya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61601/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e43eca5e9311cce334e705faefac5c02]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-KTNK891', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e43eca5e9311cce334e705faefac5c02, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ramya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61601/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e43eca5e9311cce334e705faefac5c02
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:428)
+at First.a.newone.throwa(newone.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.afterRun(TestRunner.java:893)
+at org.testng.TestRunner.run(TestRunner.java:606)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- throwa -->
+      </class> <!-- First.a.newone -->
+    </test> <!-- homepagevalidation -->
   </suite> <!-- Suite -->
 </testng-results>

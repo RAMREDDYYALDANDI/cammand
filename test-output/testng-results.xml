@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-27T22:41:09 IST" name="Suite" finished-at="2022-01-27T22:42:02 IST" duration-ms="52981">
+  <suite started-at="2022-02-02T01:08:35 IST" name="Suite" finished-at="2022-02-02T01:08:35 IST" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2022-01-27T22:41:09 IST" name="Test" finished-at="2022-01-27T22:42:02 IST" duration-ms="52981">
-      <class name="right.side.Homepage">
-        <test-method signature="basepagenavigation()[pri:0, instance:right.side.Homepage@457c9034]" started-at="2022-01-27T22:41:09 IST" name="basepagenavigation" finished-at="2022-01-27T22:42:02 IST" duration-ms="52893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basepagenavigation -->
-      </class> <!-- right.side.Homepage -->
-    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
